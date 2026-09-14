@@ -26,7 +26,7 @@ import androidx.media3.exoplayer.ExoPlayer
 private const val STREAM_URL = "https://custom-azura1.asurahosting.com/listen/radio_lumezzane/radio.mp3"
 private const val SITE_URL = "https://stefanovillani.it/radio-lumezzane/"
 private const val MAIL_TO = "mailto:info@radiolumezzane.it"
-private const val WHATSAPP_URL = "https://wa.me/393000000000"
+private const val WHATSAPP_URL = "https://wa.me/393473397415"
 
 class MainActivity : ComponentActivity() {
 
