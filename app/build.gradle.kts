@@ -44,6 +44,7 @@ android {
 }
 
 dependencies {
+    implementation("androidx.car.app:app:1.4.0")
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.core:core-splashscreen:1.0.1")
     implementation("com.google.android.material:material:1.12.0")
@@ -57,3 +58,4 @@ dependencies {
     implementation("androidx.media3:media3-exoplayer:1.4.1")
     implementation("androidx.media3:media3-ui:1.4.1")
 }
+
