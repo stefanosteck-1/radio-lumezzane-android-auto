@@ -3,4 +3,11 @@
     <style name="Theme.RadioLumezzane" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
+
+    <style name="Theme.RadioLumezzane.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/brand_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/brand_icon_bg</item>
+        <item name="postSplashScreenTheme">@style/Theme.RadioLumezzane</item>
+    </style>
 </resources>

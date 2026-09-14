@@ -26,7 +26,7 @@ android {
     }
     kotlinOptions { jvmTarget = "17" }
 }
-dependencies {
+dependencies {`r`n    implementation("androidx.core:core-splashscreen:1.0.1")
     implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.activity:activity-compose:1.9.2")
@@ -38,4 +38,5 @@ dependencies {
     implementation("androidx.media3:media3-exoplayer:1.4.1")
     implementation("androidx.media3:media3-ui:1.4.1")
 }
+
 
